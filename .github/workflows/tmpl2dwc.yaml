@@ -17,4 +17,4 @@ jobs:
 
       - run: diff occurrence.csv testfiles/tc00/occurrence.csv > diff.out
 
-      - run: if [ ! -s diff.out ]; then cat diff.out; exit 2; else exit 0; fi
+      - run: if [ -s diff.out ]; then cat diff.out; exit 1; else exit 0; fi
