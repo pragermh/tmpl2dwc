@@ -1,0 +1,13 @@
+name: Shared Actions Example
+
+on:
+  workflow_dispatch:
+
+jobs:
+  checkout-repo:
+    runs-on: ubuntu-latest
+
+    steps:
+      - uses: actions/checkout@v2  # Check-out repo under $GITHUB_WORKSPACE, so workflow can access it
+
+      - run: src/create_occurrence.sh testfiles/tc00/event.csv testfiles/tc00/asv-table.csv
