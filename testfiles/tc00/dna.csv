@@ -1,0 +1,4 @@
+﻿eventID,sop,target_gene,target_subfragment,lib_layout,seq_meth,pcr_primer_name_forward,pcr_primer_name_reverse,pcr_primer_forward,pcr_primer_reverse,denoising_appr,env_broad_scale,env_local_scale,env_medium
+16S_1,https://nf-co.re/ampliseq,16S rRNA,V3-V4,paired,Illumina MiSeq,341F,805R,CCTACGGGNGGCWGCAG,GACTACHVGGGTATCTAATCC,DADA2,aquatic biome [ENVO_00002030],marine biome [ENVO_00000447],brackish water [ENVO_00002019]
+16S_2,https://nf-co.re/ampliseq,16S rRNA,V3-V4,paired,Illumina MiSeq,341F,805R,CCTACGGGNGGCWGCAG,GACTACHVGGGTATCTAATCC,DADA2,aquatic biome [ENVO_00002030],marine biome [ENVO_00000447],brackish water [ENVO_00002019]
+16S_3,https://nf-co.re/ampliseq,16S rRNA,V3-V4,paired,Illumina MiSeq,341F,805R,CCTACGGGNGGCWGCAG,GACTACHVGGGTATCTAATCC,DADA2,aquatic biome [ENVO_00002030],marine biome [ENVO_00000447],brackish water [ENVO_00002019]
